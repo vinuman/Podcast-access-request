@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Pod request access landing page</title>
+</head>
+<body>
+
+  <main class="container">
+    <div class="left">
+      <img src="logo.svg" alt="logo">
+
+    </div>
+    <div class="right">
+      <img src="image-host.jpg" alt="representative image">
+      <div class="overlay">
+        <h2>Publish your podcasts everywhere.</h2>
+        <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+          Apple Podcasts, Google Podcasts, Pocket Casts and more! </p>
+          <form id="form">
+            <div class="text-field">
+              <input type="email" name="" id="email" placeholder="Email Address" onkeydown="validation()">
+              <button type="submit">Request Access</button>
+            </div>
+            <span id="text"></span>
+          </form>
+          <div class="podcasts">
+            <img src="spotify.svg" alt="spotify">
+            <img src="apple-podcast.svg" alt="apple">
+            <img src="google-podcasts.svg" alt="google">
+            <img src="pocket-casts.svg" alt="pocket">
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Publish your podcasts everywhere.
+
+  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+
+  Request access -->
+  <script src="script.js"></script>
+</body>
+</html>
